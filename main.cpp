@@ -21,5 +21,16 @@
 
 int main(int argc, char *argv[]) {
         std::println("\033[1mHello to fmt-examples project\033[0m");
+        std::println();
+
+        const int value = 123;
+        std::println("Auto standart: {}", value);
+        std::println("Hex: {:x}", value);
+        /* # - добавлять 0x */
+        std::println("Hex: {:#x}", value);
+        /* 06 - использовать 6 символов (включая 0x),  */
+        std::println("Hex: {:#06x}", value);
+        std::println();
+
         return 0;
 }
