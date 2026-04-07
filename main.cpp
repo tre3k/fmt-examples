@@ -32,5 +32,29 @@ int main(int argc, char *argv[]) {
         std::println("Hex: {:#06x}", value);
         std::println();
 
+        const std::string name = "World";
+        std::println("String: {}", name);
+        std::println("String with width: {:>10}", name);
+        std::println();
+
+        const double pi = 3.14159265359;
+        std::println("Double: {}", pi);
+        std::println("Double (2 decimals): {:.2f}", pi);
+        std::println("Scientific: {:e}", pi);
+        std::println();
+
+        const bool flag = true;
+        std::println("Bool: {}", flag);
+        std::println("Bool (text): {}", flag ? "yes" : "no");
+        std::println();
+
+        const char letter = 'A';
+        std::println("Char: {}", letter);
+        std::println("Char as int: {:d}", static_cast<int>(letter));
+        std::println();
+
+        std::println("Multiple: {} {} {}", name, value, pi);
+        std::println("Index: {2} {0} {1}", "first", "second", "third");
+
         return 0;
 }
