@@ -36,3 +36,34 @@
 mkdir -p build && cd build && cmake .. && make
 ./fmt-examples
 #+end_src
+
+** История промптов
+PS: Я тут во всю использовал OpenCode =) ниже история промптов)
+
+#+begin_quote
+сделай базовый проект на C++ с cmake
+#+end_quote
+
+#+begin_quote
+cпасибо!
+#+end_quote
+
+#+begin_quote
+добавь стандартный заголовок GNU GPLv3 лицензии в main.cpp файл c названием проекта и автором: Kirill Pshenichnyi <pshcyrill@mail.ru>
+#+end_quote
+
+#+begin_quote
+добавь в main.cpp, ниже уже существующих, примеров с использованием fmt в println c разными типами переменных
+#+end_quote
+
+#+begin_quote
+добавь в README.org более развернутое описание того что в main.cpp
+#+end_quote
+
+#+begin_quote
+Придумай описание проекта для github, что можно было бы написать в поле Description
+#+end_quote
+
+#+begin_quote
+Добавь список предыдущих промптво в README.org, каждый добавляя в #+begin_quote
+#+end_quote
